@@ -1,0 +1,32 @@
+body{ background-color: #934EF9
+		background-image: url(https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80)
+		}
+.whole {background-color: #934EF9
+		font-size: 108%
+		color: black;}
+
+h1 {font-size: large;
+	background-attachment: fixed;
+	background-color: lightgreen;}
+
+h2 {color: red;
+	font-size: x-large;}
+
+p {font-family: "Arial"; 
+   font-style: italic;}
+
+
+
+nav a:link {color: black;}
+nav a:hover {color: greenyellow;}
+nav a:visited {color: deeppink;}
+
+
+nav li {display: inline; 
+	font-weight: bold; 
+	text-decoration: none;
+	font-size: 35px; }
+#wrapper {width: 92%;
+		margin-left: auto;
+		margin-right: auto;}
+
