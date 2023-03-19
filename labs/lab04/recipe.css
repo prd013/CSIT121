@@ -1,0 +1,37 @@
+body{background-color: #964B00;
+	 color: #00FF00; 
+	 font-family: Verdana, sans-serif;
+
+	background-image: url(https://static.dw.com/image/54097802_1006.jpg);
+		opacity: 1;
+
+    
+       background-position: left;
+
+       background-attachment: fixed;}
+       h1 {box-shadow: 5px 5px #828282}
+       h2 { background-color: #DA70D6;
+       background-image: linear-gradient(to top, #FFFFFF, #DA70D6); 
+   			background-repeat: no-repeat; }
+p{font-size: 0.88em;}
+h1{text-transform: uppercase;}
+h2{color: #FF0000; font-weight: bold;}
+.emphesis{background-color: #FA8072;
+			font-size: 111%; 
+			font-weight: bold; 
+			color: white;}
+#wrapper {margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		}
+.clearfloat {clear: left;}
+nav {float: left;
+width: 400px; margin-right: 45px; }
+main {margin-left: 22px;
+padding: 20px; }
+footer {width: 200px;
+		background-color: green;
+		}
+footer a:link { color: #CCFFFF;}
+footer a:visited {color: #B0098E; } 
+footer a:hover {color: #FFFFFF;}
