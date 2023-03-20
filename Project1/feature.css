@@ -1,0 +1,44 @@
+body{ background-color: #934EF9;}
+.center { display: block;
+			margin-left: auto;
+			margin-right: auto;  }
+h1 {font-size: large;
+	background-attachment: fixed;
+	background-color: lightgreen;}
+
+h2 {color: #023020;
+	font-size: x-large;
+	text-decoration: underline;
+	text-align: center;}
+
+p {font-family: "Arial"; 
+   font-style: italic;
+background-color: #0000FF;
+color: yellow;
+border: 3px solid #000000;
+margin-top: 5px;
+scroll-margin-bottom: 30px;
+padding: 3px 2px 5px;
+}
+
+
+
+nav a:link {color: black;}
+nav a:hover {color: greenyellow;}
+nav a:visited {color: deeppink;}
+
+
+nav li {display: inline; 
+	font-weight: bold; 
+	text-decoration: none;
+	font-size: 35px; }
+#wrapper {width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url( sunset.jpg);
+				padding: 15px;
+		background-size: cover;
+		background-attachment: scroll;
+
+	}
+
