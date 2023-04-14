@@ -1,0 +1,109 @@
+body{
+	 font-family: Times New Roman, serif;
+
+	background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMTY5NTQwLWltYWdlLWpvYjYzMC1hLWwwZzA2OGd0LmpwZw.jpg?s=_rHrgeGc-9zp7Tkfkg6Zse0ifqfBhuoVI6-agMUiqlM);
+		
+
+    
+       background-position: left;
+
+       background-attachment: fixed;}
+
+
+@media (max-width: 768px){
+img {display: grid; margin: auto;}
+nav li { display: flex;
+flex-flow: column nowrap;
+justify-content: flex-start;
+align-items: flex-start; text-decoration-thickness: 14px; font-size: large; color: brown;}
+footer{text-align: center; background-color: green;}
+
+main {font-style: italic; font-size: 22px;
+}
+
+header {grid-area: header;}
+
+nav {grid-area: nav;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+
+
+#forPhone {
+ 			max-width: 650px;
+ 			width: 85%;
+ 			display: grid;
+ 			grid-template: 
+ 		"header" 
+ 		"nav" 30%
+ 		"main" 1fr
+ 		"footer" auto
+ 		/ 70%
+
+ 		}
+
+
+
+}
+
+
+       h1 {box-shadow: 5px 5px #828282}
+       h2 { background-color: #DA70D6;
+       background-image: linear-gradient(to top, #FFFFFF, #DA70D6); 
+   			background-repeat: no-repeat; }
+p{font-size: 0.88em;}
+h1{text-transform: uppercase;}
+h2{color: #FF0000; font-weight: bold;}
+.emphesis{background-color: #FA8072;
+			font-size: 111%; 
+			font-weight: bold; 
+			color: white;}
+#wrapper {margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		}
+.clearfloat {clear: left;}
+nav {float: left;
+width: 400px; margin-right: 45px; }
+main {margin-left: 22px;
+padding: 20px; }
+footer {width: 200px;
+		
+		}
+footer a:link { color: #CCFFFF;}
+footer a:visited {color: #B0098E; } 
+footer a:hover {color: #FFFFFF;}
+
+
+
+
+
+.content-table table, td, th, tr { border: none;
+	margin: auto; width: 33%;
+}
+
+caption {font-style: italic; font-weight: bold; 
+	font-size: 2.2em; color: #900E30;}
+
+tbody td:last-of-type{background-color: grey;
+color: #0ae0ee;}
+
+tbody {font-family: Verdana, sans-serif; font-size: 1.1em;
+color: black;}
+
+tbody td { text-align: left; padding-left: 10px; }
+
+tfoot, thead {font-weight: bold;padding: 6px; text-align: center; font-size: 1.3em;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
