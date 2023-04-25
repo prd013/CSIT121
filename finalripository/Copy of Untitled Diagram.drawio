@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2023-04-25T21:43:59.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="POaW8IPH4oPBqXzFPpNv" version="21.1.1" type="github">
+  <diagram name="Page-1" id="yqJoqsB-jdqyBZvZNpFd">
+    <mxGraphModel dx="1130" dy="587" grid="1" gridSize="17" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qFT5033oQi_SpKPOxpyi-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Cricket Logo&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="10" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-2" value="&lt;b&gt;&lt;i&gt;Photo of Sachin Tendulkar (god of cricket)&lt;/i&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="10" y="30" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="119" y="40" width="661" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-5" value="&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff0000&quot;&gt;Home&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="136" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-6" value="How To Play" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="323" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-7" value="Teams" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="442" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-8" value="History" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="561" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-9" value="Contact" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="663" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-10" value="Copyrighted @Pradip Raj 2023. R-Group Corporation.LTD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="187" y="767" width="667" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-11" value="What is cricket?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-12" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="476" y="773" as="sourcePoint" />
+            <mxPoint x="476" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-13" value="Description...." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="272" width="328" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-14" value="Tournaments" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="221" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-15" value="&lt;div align=&quot;left&quot;&gt;Description about the biggest bodies of cricket:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;ICC:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;ACC:&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="493" width="328" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-16" value="Pictures" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="238" width="272" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qFT5033oQi_SpKPOxpyi-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="902" y="288" as="sourcePoint" />
+            <mxPoint x="952" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qFT5033oQi_SpKPOxpyi-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="408" y="425" as="sourcePoint" />
+            <mxPoint x="680" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFT5033oQi_SpKPOxpyi-20" value="Pictures" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="663" y="510" width="272" height="187" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
