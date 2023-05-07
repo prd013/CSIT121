@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Favorite Recipe</title>
+	<link rel="stylesheet" href="recipe.css">
+	
+<style>
+
+	table, th, td, tr {margin: 2px; padding: 8px; border: 2px groove brown; border-collapse: collapse;}
+
+input[type="reset"] {font-size: 1.3em; background-color: indianred; padding: 4px; margin-left: 12%;}
+
+
+</style>
+
+
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="forPhone">
+<header>	
+	<h1>Dog Meat Soup</h1>
+	
+	<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Laika_ac_Dog_meat_%2811975336973%29.jpg" alt="Tasty meat cooked" height="200" width="320">
+</header>
+
+<!-- <!I am using this as navigation for grid layout > -->
+
+<nav>
+	<h2>Mouth Watering Soup you&#39;ll taste</h2><hr>
+<ul>
+ <li><strong>100g of boiled dog meat</strong>- In a hot water boil a freshly skinned dog. Cut the dog into pieces and measure 100g from it.</li>
+ <li><strong>20g of green onion</strong>- Can use either a white or pink onion depending on the amount of spiciness of your preference.</li>
+<li><b>8g of salt</b>- White refined salt is better than an sea salt.</li>
+<li><b>2g of mashed gralic</b>-Using stone mash garlic in table.</li>
+<li><b>500g of gravy</b></li>
+<li><b>2g of red pepper</b>-Green papper can be made ripe by storing them at table counter.</li>
+</ul>
+
+</nav>
+
+<!-- <!main for two column display
+of grid. Recipe for cooking.> -->
+<main>
+<h2> How to cook the soup?</h2>
+<hr>
+
+<ol type="A">
+	
+	<li ><em>After boiling the meat with gravy and stalk of taro for some time, boil again after putting vegetables and other ingredients into it.</em></li>
+	<li><em>Before eating, sprinkle pepper on it and put into an earthen bowl.</em></li>
+	<li><em>The stalk of taro is to be kept in cold water one or two days to get rid of its smell and taste.</em></li>
+</ol>
+
+
+<br class="clearfloat">
+<p>This is my favorite soup for many reasons. I have had different kinds of soups but not the soup of a dog. So, I hope to taste it one day.<br>I do not like soups of vegetables. I do not eat fruits and I don't take any kinds of vitamins, but I do like animal's soup. My favorite aniamls are pigs and goats, but I would love to eat dogs as well.</p>
+</main>
+
+
+</div>
+</div>
+
+<!-- <table is to be used as an aside > -->
+	<aside>
+
+		<!-- <!Here is a video that I want my viewers to look at.> -->
+
+		<video poster="boiled.jpg" controls="controls" width="445" height="300">
+	<source src="dogmeat2.mp4" type="video/mp4" >
+<a href="advideo.mov">Dog Meat Recipe</a>(.mov)
+</video>
+
+ <!-- ==Here I am indicating the ending of this video> -->
+
+
+<div class = "content-table">
+<table>
+	<caption style="caption-side: top;">Nutritional Information</caption>
+	<thead>
+		<tr>
+			<th scope="col" colspan="2">Nutritional Facts</th>
+		</tr>
+
+		<tr> 
+			<td>Serving size </td>
+			<td> 2 cups </td>
+		</tr>
+		<tr>
+			<td colspan="2">Amount Per Serving </td>
+		</tr>
+		<tr>
+			<td> Calories 500 </td>
+			<td> Calories from Fat 300 </td>
+		</tr>
+	</thead>
+
+	<tbody>
+
+		<tr> 
+			<td style="text-align: right;" colspan="2">%Daily Value </td>
+		</tr>
+
+		<tr>
+			<td> <strong>Total Fat</strong> </td>
+			<td rowspan="2"> 50% </td>
+		</tr>
+		<tr>
+			<td> &nbsp;Trans Fat 0g </td>
+		</tr>
+		<tr>
+			<td>&nbsp;Saturated Fat 30g</td>
+			<td>50%</td>
+		</tr>
+		<tr>
+			<td>Cholestorel 500mg</td>
+			<td>20%</td>
+		</tr>
+		<tr>
+			<td>Sodium 20mg</td>
+			<td>3%</td>
+		</tr>
+		<tr>
+			<td><strong>Total carbohydrates</strong>14g</td>
+			<td>5%</td>
+		</tr>
+		<tr>
+			<td>Protein 13.6g</td>
+			<td>22%</td>
+
+		</tr>
+	</tbody>
+
+	<tfoot>
+		<tr>
+			<td>Total</td>
+			<td>100%</td>
+		</tr>
+    </tfoot>
+</table>
+</div>
+</aside>
+
+<br><br><br>
+
+
+
+	
+<footer><a href="https://recipes.fandom.com/" target="_blank"> <strong>For free Recipes</strong></a>
+<small><i>&copy; CopyrightRecipes 2022 PRADIP RAJ DHAKAL </i></small>
+<a href="mailto:dhakal.pradip234@gmail.com">dhakal.pradip234@gmail.com</a></footer>
+
+<!-- Form for visitors to fill out> -->
+
+
+
+<form method="post">
+	<h2 style="color: blueviolet; text-align: right;">Please Provide your information.</h2>
+	
+
+	<label for="fname">Your First Name:</label>
+	<input type="text" id="fname" name="fname" maxlength="53" size="20">
+
+	<label for="lname">Your Last Name:</label>
+	<input type="text" id="lname" name="lname" maxlength="53" size="20">
+	
+
+	<label for="email">Enter your G&mdash;mail:</label>
+	<input type="email" id="email" name="G-Mail" placeholder="ipv7@gmail.com" accesskey="E">
+
+	<fieldset>
+		<legend>Your Favorite Cuisine:</legend>
+	<label for="favfood">Choose one:-</label>
+	<select name="foodlist" size="4" tabindex="3" id="favfood" multiple>
+		<option value="Korean Dog soups.">Korean soup</option>
+		<option value="Chinese dog-meat balls.">Chinese Dog meat</option>
+		<option value="Italian" disabled>Italian Pizza</option>
+		<option value="crema" selected>Créma Méxicana</option>
+	</select>
+	</fieldset><br><hr>
+	
+	I want to subscribe:<br>
+	<label><input type="radio" name="subscribe" id="yes">Yes!<br></label>
+	<label><input type="radio" name="subscribe" id="no">No.<br></label>
+	
+	<label><input type="reset" name="reset" id="reset"></label>
+
+
+
+	<label for="comment">Comments:</label>
+	<textarea name="Acomment" id="comment" rows="3" cols="28" maxlength="99">Your comments goes here.
+	</textarea>
+	<input type="submit">
+
+</form>
+
+
+</body>
+</html>
