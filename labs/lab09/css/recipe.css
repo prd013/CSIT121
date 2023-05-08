@@ -1,0 +1,146 @@
+body{
+	 font-family: Times New Roman, serif;
+
+	background-image:url("images/dogg.jpg"); 
+	background-repeat: no-repeat;
+
+       background-attachment: fixed;}
+
+ header {text-align: center;}
+ aside{ display: inline; }
+
+
+
+/*Indicating for small devices */
+
+@media (max-width: 768px){
+img {display: grid; margin: auto;}
+nav li { display: flex;
+flex-flow: column nowrap;
+justify-content: flex-start;
+align-items: flex-start; text-decoration-thickness: 14px; font-size: large; color: brown;}
+footer{text-align: center; color: red;}
+main {font-style: italic; font-size: 22px;}
+header {grid-area: header;}
+nav {grid-area: nav;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+
+
+#forPhone {
+ 			max-width: 650px;
+ 			width: 85%;
+ 			display: grid;
+ 			grid-template: 
+ 		"header" 
+ 		"nav" 30%
+ 		"main" 1fr
+ 		"aside"
+ 		"footer" auto
+ 		/ 70%
+
+ 		}
+
+}
+
+
+/* For Larger Devices*/
+@media (min-width: 1080px){
+	
+
+
+header {grid-area: header;}
+nav {grid-area: nav;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+aside {grid-area: aside;}
+
+
+#forPhone{display: grid; width: 100%;
+	grid-template:
+	"header header "
+	"nav main"
+	"aside aside"
+	"footer footer"/40%
+	
+	
+}}
+
+
+
+       h1 {box-shadow: 5px 5px #828282}
+       h2 { background-color: #FA7FEF;
+       background-image: linear-gradient(to top, #FFFFFF, #DA70D6); 
+   			background-repeat: no-repeat; }
+p{font-size: 1.1em;}
+h1{text-transform: uppercase;}
+h2{color: #FF30E0; font-weight: bold;}
+.emphesis{background-color: #FA8072;
+			font-size: 111%; 
+			font-weight: bold; 
+			color: white;}
+#wrapper {margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		}
+.clearfloat {clear: left;}
+nav {float: left;
+width: 400px; margin-right: 20px; }
+main {margin-left: 22px;
+padding: 20px; width: 400px;}
+footer {width: 200px; text-align: center; font-size: 1.3em;
+		}
+footer a:link { color: #C444FF;}
+footer a:visited {color: #BEE98E; } 
+footer a:hover {color: #FFD00F;}
+
+
+
+
+
+
+.content-table table, td, th, tr { border: none;
+	 width: 22%;
+}
+
+caption {font-style: italic; font-weight: bold; 
+	font-size: 2.2em; color: #009879;}
+
+tbody tr:nth-of-type(even){background-color: #f3f3f3;
+color: goldenrod;}
+
+tbody {font-family: Verdana, sans-serif; font-size: 1.1em;
+color: black;}
+
+tbody td { text-align: left; padding-left: 10px; }
+
+tfoot, thead {font-weight: bold;padding: 6px; text-align: center; font-size: 1.3em;
+	}
+
+form {background-color: #EFFFFF;
+		width: 500px; border: 3px groove dotted;
+		box-shadow: 2px 3px 4px brown; margin: auto; padding: 5px 6px 9px;}
+
+fieldset {border: none;
+} legend{font-weight: bold; 
+	font-style: italic;
+	 border-bottom: solid; 
+	 font-family: serif; 
+	 padding: 8px;}
+
+label {display: block; width: 300px; padding: 5px;
+margin: 0.5em;}
+
+textarea, input[type="submit"] {margin-top: 2em; margin-left: 30%; display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
