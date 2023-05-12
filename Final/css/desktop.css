@@ -1,0 +1,167 @@
+
+/*begging of codes for desktop devices*/
+
+
+* {box-sizing: border-box; }
+
+
+header { color: #0E005E; 
+        background-color: #86EEE7;
+		background-image: url(images/sachin.jpg); 
+
+		
+	    background-repeat: no-repeat;		
+		background-size: auto 100%;
+        padding: .5em 0 .5em 5.5em;
+}
+
+.boards{font-size: 1.5em; font-style: oblique; color: yellow; 
+	background-color: lightseagreen; text-align: center; font-weight: bold;
+}
+
+nav ul { list-style-type: none;
+         padding-left: 0; 
+		 border-top: 1px solid #EEEEEE; 
+		 letter-spacing: 0.08em; font-weight: bold;
+		 }
+
+
+nav li { border-bottom: 1px solid #EEEEEE;  
+         text-align: center;
+		 padding-top: 1.5em;
+		 padding-bottom: 1.5em;
+}
+nav li:nth-of-type(odd) {background-color: #FFC; }
+
+nav a { text-decoration: none;
+		font-weight: bold;
+}
+nav a:link { color: #00005D; }
+nav a:hover { color: #FF0000; }
+a:hover{ color: red; }
+.boards:hover {color: darkorange;}
+footer{background-image:linear-gradient(to right, #FF9, #DDE);}
+h2{color: orange;}
+
+main, nav {font-size: 1.3em; }
+main {margin-left: 3px;}
+
+body { background-color: #FFFFED; }
+	nav ul { display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap; }
+			main {color: brown;}
+	header { grid-area: header; }
+    nav    { grid-area: nav; }
+    main   { grid-area: main; }
+	aside  { grid-area: aside; }
+    footer { grid-area: footer; }		
+	#wrapper { width: 100%;
+			   margin: auto; 
+			   display: grid;
+			   grid-template: 
+			     "header header header"
+				 "nav    main   aside" auto
+				 "footer footer footer"
+				 /140px 1fr 33%}
+
+
+
+#gallery{display: flex; flex-flow: column-reverse wrap;
+	align-items: flex-end; justify-content: space-between; margin: 20px;
+
+}
+#batting{transform: rotate(3deg); }
+
+/*Table styling extra*/
+		.content-table { font-size: 0.8em; 
+		width: 220px; border-collapse: collapse;}
+		.row {
+  		display: flex;
+  		margin-left:-5px; margin-right: -5px;
+				}
+		.column {
+		flex: 45%;
+		padding: 5px;}
+
+/*End of the table style*/
+
+img{margin: 2em; width: 70%;}
+h2, h3 {color: blue;}
+p a {font-size: 1.1em; text-decoration: none;font-weight: bold;}
+.bottom caption{caption-side: bottom;color: green; background-color: white; 
+		font-size: 1.2em; margin-top: 5px; font-weight: bold;}
+
+/*Form Styling here*/
+	
+form {background-color: #EFFFFF;
+		width: 90%; border: 3px groove dotted;
+		box-shadow: 10px 8px 10px brown; 
+		margin: auto; padding: 5px 6px 9px;}
+
+fieldset {border: none; margin-top: 2em;
+} legend{font-weight: bold; 
+	font-style: italic;
+	 border-bottom: solid; 
+	 font-family: serif; 
+	 padding: 8px;}
+
+label {display: block; width: 300px; padding: 5px;
+margin: 0.5em;}
+
+textarea, input[type="submit"] {margin-top: 2em; margin-left: 10%; display: block;
+font-weight: bolder;}
+
+		.content-table { font-size: 0.8em; border-collapse: collapse; width: 400px;}
+		.row {
+  				display: flex;
+  				margin-left:-5px; margin-right: -5px;
+				}
+		.column {
+		flex: 45%;
+		padding: 5px;}
+
+		
+		.row {display: flex; flex-direction: column;
+				flex-wrap: wrap;}
+.magnify{transform: rotate(10deg); width: 85%;}
+
+
+nav {position: relative;}
+nav ul ul { position: absolute; display: none; text-align: center;}
+nav li:hover ul{ display: block; 
+	}
+
+
+/*list of css codes for mobile devices.*/
+
+
+@media(max-width:795px){
+
+
+nav {position: relative;}
+nav ul ul { position: absolute; display: none;
+margin-left: 7em;}
+nav ul ul li { display: block; border: 3px solid #0FD;}
+nav li:hover ul{ display: block;}
+header{background-image: url(images/dhakal.jpeg);}
+
+body { background-color: #FFFFED; }
+	nav ul { display: block; text-align: right;
+			flex-flow: row wrap;}
+			main {color: brown;}
+	header { grid-area: header; }
+    nav    { grid-area: nav; }
+    main   { grid-area: main; }
+	aside  { grid-area: aside; }
+    footer { grid-area: footer; }		
+	#wrapper { width: 100%;
+			   margin: auto; 
+			   display: grid;
+			   grid-template: 
+			     "header header" 
+				 "nav nav" 
+				 "main aside"   
+				 "footer footer" / 62%
+				 }
+				}
